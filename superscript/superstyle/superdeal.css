@@ -1,0 +1,199 @@
+body{
+    font-family: sans-serif;
+}
+#topbar{
+    width: 78%;
+    height: 150px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+}
+#flash{
+    width: 15%;
+    height: 90%;
+    display: flex;
+}
+#flash>div{
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    text-align: center; 
+}
+#flash>div>img{
+    width: 40px;
+    margin-top: 5px;
+}
+#flash>div>p{
+  margin: auto;
+  font-size: 15px;
+}
+#super{
+    width: 83%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+#super>div{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+#super>div>img{
+    width: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#super>div>p{
+    font-size: 15px;
+    color: grey;
+}
+#super>div>p:hover{
+    font-weight: bold;
+    color: black;
+}
+#timer{
+    width: 100%;
+    height: 80px;
+    margin-top: 15px;
+    display: flex;
+}
+.start{
+    width: 38%;
+    height: 100%;
+    background-color: #3e3434;
+    color: white;
+}
+.end{
+    width: 24%;
+    height: 100%;
+    background-color: #fc5145;
+}
+.soon{
+    width: 38%;
+    height: 100%;
+    background-color: #3e3434;
+    border: none;
+}
+.comingsoon{
+    color:grey;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.date{
+    color: grey;
+    text-align: center;
+    margin-top: -15px;
+    font-size: 20px;
+}
+#time{
+    color: grey;
+    text-align: center;
+    margin-top: -15px;
+    font-size: 18px;
+}
+.endin{
+    text-align: center;
+    color: grey;
+    margin-top: 10px;
+}
+#body{
+    width: 100%;
+    height: auto;
+    background-color:whitesmoke;
+}
+#sort{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    display: flex
+}
+#sort>div{
+   padding: 10px;
+   margin-top: -11px;
+   font-size: 13px;
+   cursor: pointer;
+}
+.para{
+    color: grey;
+    cursor: pointer;
+}
+
+#product{
+    width: 73%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+    
+}
+#product :hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#product >div{
+    background-color: white;
+    margin-top: 25px;
+}
+.photo{
+    width:100%;
+}
+#product >div >h4{
+    color: grey;
+    margin-top: 0px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+#product >div> h2{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+#product >div> p{
+    width: 200px;
+    height: 90px;
+    margin-left: 10px;
+    text-overflow: ellipsis;
+}
+#couponleft{
+    height: 75px;
+    background-color: #ffda00;
+    margin-top: -10px;
+}
+#couponleft>p{
+    margin-left: 10px;
+    margin-top: 15px;
+    padding: 10px;
+}
+#couponleft>h4{
+    border:1px dashed;
+    padding: 5px;
+    margin: -15px 15px 5px 20px;
+}
+.ending{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#startTime{
+    text-align: center;
+    color: white;
+    margin-top: -15px;
+}
+.cart{
+    margin-left: 200px;
+    margin-bottom: 25px;
+    width: 35px;
+    margin-top: -60px;
+}
+.cart:hover{
+    width: 50px;
+    height: 50px;
+    
+}
+#footer{
+    margin-top: 100px;
+}
+

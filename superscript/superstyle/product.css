@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+#item{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 180px;
+    display: flex;
+}
+#pic{
+    width: 35%;
+    height: 90%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin: auto;
+    background-color: white;
+}
+#deatils{
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    background-color: white;
+}
+#deatils>h2{
+    margin: 40px;
+    margin-left: 40px;
+}
+#deatils>h3{
+    font-size: 20px;
+    margin-left: 40px;
+}
+#colour{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+#colour>h4{
+    margin-top: 0px;
+    margin-left: 60px;
+}
+#deatils>button{
+    margin-left: 40px;
+    margin-top: 100px; 
+}
+.btn1{
+    color: white;
+    background-color: crimson;
+    border: none;
+    font-size: 25px;
+    padding: 15px 25px;
+    font-weight: bold;
+}
+.btn2{
+    color: crimson;
+    border: 2px solid crimson;
+    padding: 13px 25px;
+    font-size: 25px;
+    font-weight: bold;
+}

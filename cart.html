@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="shortcut icon" href="https://img.ecommercedb.com/gearbest.com-75ioegxvb6cx.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/457bb5a52c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div>
+            <img src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png?imbypass=true" alt="logo_gearbest" srcset="">
+        </div>
+        <div>
+            <p>Ship to <span id="Flag"><img src="image/img2.png" alt=""></span>/ USD <i class="fa-solid fa-chevron-down"></i> </p>
+        
+        </div>
+    </nav>
+    <div id="main">
+        <div id="paycart">
+           <ul>
+             <li> 
+               <p>Cart</p>
+               <i class="fa-solid fa-circle"></i>
+            </li>
+             <li>   
+              <p>Place Order</p>
+              <i class="fa-solid fa-circle"></i> 
+              </li>
+             <li> 
+               <p>Payment</p>
+              <i class="fa-solid fa-circle"></i>
+            </li>
+           </ul>
+         
+           
+        </div>
+    
+    <div id="itemtable">
+    <div id="imp"> 
+       <p>Selected items(s)</p></div> 
+      <div id="enter">
+        <p>Unit Price</p>
+       <p>Quantity</p>
+       <p>Subtotal</p>
+       <p>Operation</p>
+       
+
+      </div>
+    </div>
+    
+    <table id="table">
+      <thead>
+        <tr>
+          <td id="select">Selected items (s)</td>
+          <td id="unit">Unit Price</td>
+          <td id="quantity">Quantity</td>
+          <td id="subtotal">Subtotal</td>
+          <td id="operation">Operation</td>
+         </tr>
+        <!-- <tbody>
+          <tr>
+            <td> 
+              <div id="head">
+                <div><img src="https://gloimg.gbtcdn.com/soa/gb/store/6615272824267153408/16421/goods_img-v4/a0da751fd8f8.jpg" alt=""></div>
+                <div>A9 Mini caméra wifi camera 1080p HD Night version </div>
+              </div>
+            </td>
+              
+            
+            <td id="money">$782.99</td>
+            <td id="quanty"><button>-</button><input type="number"><button>+</button></td>
+            <td id="subtotal1">$782.99</td>
+            <td id="function">
+            <div> <a href="">Edit</a></div>
+            <div><a href="">Favorites</a></div>
+            <div><a href="">Delete</a></div> 
+              
+              
+            </td>
+
+            
+          </tr>
+        </tbody> --> 
+
+        <tbody>
+          <tr>
+            <td> 
+              <div id="head">
+                <!-- <div id="imageee"></div>
+                <div id="nameee"> </div> -->
+              </div>
+            </td>
+              
+            
+            <td id="money"></td>
+            <td id="quanty"><button>-</button><input type="number" ><button>+</button></td>
+            <td id="subtotal1"></td>
+            <td id="function">
+            <!-- <div> <a href="">Edit</a></div>
+            <div><a href="">Favorites</a></div> -->
+            <div id="remove"></div> 
+              
+              
+            </td>
+
+            
+          </tr> -->
+        </tbody>
+       
+      </thead>
+    </table>
+ 
+ 
+
+
+
+    <div id="payment">
+      <div id="days">
+        <!-- <div id="space">
+          <div id="make"> 
+            <div><img src="https://css.gbtcdn.com/imagecache/gbw/img/site/money_back@.png" alt=""></div>
+          <div><p>45 Days</p><p>Money Back Guarantee</p></div>
+        </div>-->
+        </div>
+
+        <div id="total">
+          <div id="total-sub1">
+            <div>
+              <div class="sub-sub1">
+                <div>
+                  <img
+                    src="https://css.gbtcdn.com/imagecache/gbw/img/site/money_back@.png"
+                    alt=""/>
+                </div>
+                <div>
+                  <h4>45 Days</h4>
+                  <p>Money Back Guarantee</p>
+                </div>
+              </div>
+              <div class="sub-sub1">
+                <div>
+                  <img
+                    src="https://css.gbtcdn.com/imagecache/gbw/img/site/repair@.png"
+                    alt=""
+                  />
+                </div>
+                <div>
+                  <h4>360 days</h4>
+                  <p>Free Repair Warranty</p>
+                </div>
+              </div>
+            </div>
+            <div id="total-display">
+
+              <div>
+                <div><p>Your subtotal</p></div>
+                <div id="subtotal"><p> $0.00</p></div>
+              </div>
+
+              <div>
+                <div><p>Promotion</p></div>
+                <div id="subpromo"><p> $0.00</p></div>
+              </div>
+
+              <div>
+                <div class="tBold"><p>Total</p></div>
+                <div id="total-final"></div>
+              </div>
+              
+            </div>
+          </div>
+          <div id="bottom-checker">
+            <div><a href="index.html">Continue shopping ></a></div>
+            <div>
+              <img
+                id="paypal"
+                src="https://css.gbtcdn.com/imagecache/gbw/img/buynow_en.93a4b6e.png"
+                alt=""
+              />
+              <p>OR</p>
+              <img
+                id="paytm"
+                src="https://css.gbtcdn.com/imagecache/gbw/img/paypal_credit_en.10b3871.png"
+                alt=""
+              />
+              <p>OR</p>
+              <button id="btn"><a href="checkout.html">Check Out</a></button>
+            </div>
+          </div>
+        </div>
+     
+         <!-- </div>
+         <div id="side">
+         <div id="link"><a href="index.html">Continue Shopping></a> </div> 
+         <div> <button><a href="checkout.html">Check out</a></button> 
+         </div>
+
+         </div> -->
+         
+        
+   
+   </div>
+<div id="slider">
+<h1 id="header">You Might Also Like</h1>
+<div id="slide">
+  <div>
+    <img src="https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16074/goods_img-v1/d2bbce172026.jpg" alt="">
+    <p id="head">Global Version Xiaomi <br>Redmi 9 NFC 4GB 64GB ..</p>
+    <h3>$206.63</h3>
+  </div>
+  
+  <div>
+    <img src="https://gloimg.gbtcdn.com/soa/gb/item/6615272824267153408/16097/goods_img-v1/041928e10af3.jpg" alt="">
+    <p id="head">ANYCUBIC New Photon-Zero 3D Printer Quick Slice UV ....</p>
+    <h3>$169.70</h3>
+  </div>
+
+  <div>
+    <img src="https://gloimg.gbtcdn.com/soa/gb/item/6883820374342168576/16499/goods_img-v5/3aef13f28d2e.jpg" alt="">
+    <p id="head">Global Version MI 11 Ultra 6.3 inch Smartphone 12Gb  ..</p>
+    <h3>$115.90</h3>
+  </div>
+
+  <div>
+    <img src="https://gloimg.gbtcdn.com/soa/gb/item/6866325577285169152/16387/goods_img-v2/8605822da038.jpg" alt="">
+    <p id="head">High frequency Massage Gun Muscle Relax Body  ..</p>
+    <h3>$206.63</h3>
+  </div>
+
+  <div>
+    <img src="https://gloimg.gbtcdn.com/soa/gb/store/6900783172733300736/16469/goods_img-v1/2fbea3e13126.jpg" alt="">
+    <p id="head">Global Version Xiaomi <br>Redmi 9C Smartphone ..</p>
+    <h3>$119.99</h3>
+  </div>
+
+  <div>
+    <img src="https://gloimg.gbtcdn.com/soa/gb/item/6866331803104505856/16389/goods_img-v1/c3018806102c.jpg" alt="">
+    <p id="head">Men Leather Shoes Sneakers Trend Casual ..</p>
+    <h3>$206.63</h3>
+  </div>
+ 
+</div>
+</div>
+</div>
+
+</body>
+</html>
+
+<script src="cart.js"></script>
